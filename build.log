@@ -1,0 +1,660 @@
+/usr/local/matlab/bin/mex -c -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/MxArray.cpp -outdir lib
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+ar -cq lib/libMxArray.a lib/*.o
+rm -f lib/*.o
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/adaptiveThreshold.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/adaptiveThreshold
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/approxPolyDP.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/approxPolyDP
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/arcLength.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/arcLength
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/bilateralFilter.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/bilateralFilter
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/blur.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/blur
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/boundingRect.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/boundingRect
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/buildPyramid.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/buildPyramid
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/calcBackProject.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/calcBackProject
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/calcGlobalOrientation.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/calcGlobalOrientation
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/calcHist.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/calcHist
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/calcMotionGradient.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/calcMotionGradient
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/calcOpticalFlowFarneback.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/calcOpticalFlowFarneback
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/calcOpticalFlowPyrLK.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/calcOpticalFlowPyrLK
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/calibrateCamera.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/calibrateCamera
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/calibrationMatrixValues.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/calibrationMatrixValues
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/CamShift.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/CamShift
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/Canny.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/Canny
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/circle.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/circle
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/clipLine.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/clipLine
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/compareHist.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/compareHist
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/composeRT.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/composeRT
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/computeCorrespondEpilines.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/computeCorrespondEpilines
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/contourArea.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/contourArea
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/convertMaps.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/convertMaps
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/convertPointsFromHomogeneous.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/convertPointsFromHomogeneous
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/convertPointsToHomogeneous.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/convertPointsToHomogeneous
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/convexHull.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/convexHull
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/cornerEigenValsAndVecs.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/cornerEigenValsAndVecs
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/cornerHarris.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/cornerHarris
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/cornerMinEigenVal.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/cornerMinEigenVal
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/cornerSubPix.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/cornerSubPix
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/cvtColor.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/cvtColor
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/decomposeProjectionMatrix.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/decomposeProjectionMatrix
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/dilate.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/dilate
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/distanceTransform.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/distanceTransform
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/drawChessboardCorners.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/drawChessboardCorners
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/drawContours.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/drawContours
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/drawKeypoints.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/drawKeypoints
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/drawMatches.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/drawMatches
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/ellipse2Poly.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/ellipse2Poly
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/ellipse.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/ellipse
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/EMD.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/EMD
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/equalizeHist.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/equalizeHist
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/erode.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/erode
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/estimateAffine3D.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/estimateAffine3D
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/estimateRigidTransform.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/estimateRigidTransform
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/FAST.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/FAST
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/FileStorage.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/FileStorage
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/fillConvexPoly.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/fillConvexPoly
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/fillPoly.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/fillPoly
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/filter2D.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/filter2D
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/filterSpeckles.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/filterSpeckles
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/findChessboardCorners.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/findChessboardCorners
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/findCirclesGrid.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/findCirclesGrid
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/findContours.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/findContours
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/findFundamentalMat.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/findFundamentalMat
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/findHomography.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/findHomography
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/fitEllipse.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/fitEllipse
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/fitLine.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/fitLine
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/floodFill.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/floodFill
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/GaussianBlur.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/GaussianBlur
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getAffineTransform.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getAffineTransform
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getBuildInformation.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getBuildInformation
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getDerivKernels.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getDerivKernels
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getGaussianKernel.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getGaussianKernel
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getOptimalNewCameraMatrix.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getOptimalNewCameraMatrix
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getPerspectiveTransform.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getPerspectiveTransform
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getRectSubPix.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getRectSubPix
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getRotationMatrix2D.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getRotationMatrix2D
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getStructuringElement.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getStructuringElement
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/getTextSize.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/getTextSize
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/goodFeaturesToTrack.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/goodFeaturesToTrack
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/grabCut.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/grabCut
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/groupRectangles.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/groupRectangles
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/HoughCircles.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/HoughCircles
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/HoughLines.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/HoughLines
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/HoughLinesP.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/HoughLinesP
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/HuMoments.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/HuMoments
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/imdecode.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/imdecode
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/imencode.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/imencode
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/imread.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/imread
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/imwrite.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/imwrite
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/initCameraMatrix2D.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/initCameraMatrix2D
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/initUndistortRectifyMap.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/initUndistortRectifyMap
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/inpaint.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/inpaint
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/integral.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/integral
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/invertAffineTransform.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/invertAffineTransform
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/invert.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/invert
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/isContourConvex.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/isContourConvex
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/kmeans.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/kmeans
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/Laplacian.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/Laplacian
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/line.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/line
+/usr/local/matlab/bin/mex -cxx -largeArrayDims -Iinclude -I/usr/local/include/opencv -I/usr/local/include   src/+cv/matchShapes.cpp -lMxArray -Llib -lcufft -lnpps -lnppi -lnppc -lcudart -ltbb -lrt -lpthread -lm -ldl -L/usr/lib/x86_64-linux-gnu/ -L/usr/local/lib/  -lopencv_calib3d  -lopencv_contrib  -lopencv_core  -lopencv_features2d  -lopencv_flann  -lopencv_gpu  -lopencv_highgui  -lopencv_imgproc  -lopencv_legacy  -lopencv_ml  -lopencv_nonfree  -lopencv_objdetect  -lopencv_ocl  -lopencv_photo  -lopencv_stitching  -lopencv_superres  -lopencv_ts  -lopencv_video  -lopencv_videostab  -lXext  -lX11  -lICE  -lSM  -lGL  -lGLU -output +cv/matchShapes
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+
+
+Warning: You are using gcc version "4.8.4".  The version
+         currently supported with MEX is "4.7.x".
+         For a list of currently supported compilers see: 
+         http://www.mathworks.com/support/compilers/current_release/
+

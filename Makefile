@@ -11,7 +11,7 @@ MEXDIR	    := $(SRCDIR)/$(TARGETDIR)
 SRCS        := $(wildcard $(MEXDIR)/*.cpp) $(wildcard $(MEXDIR)/private/*.cpp)
 TARGETS     := $(subst $(MEXDIR), $(TARGETDIR), $(SRCS:.cpp=.$(MEXEXT)))
 C_FLAGS     := -cxx -largeArrayDims -I$(INCLUDEDIR) $(shell pkg-config --cflags opencv)
-LD_FLAGS    := -L$(LIBDIR)
+LD_FLAGS    := -L$(LIBDIR)  -L/usr/local/cuda/lib64
 
 # append OpenCV linking flags
 LIB_SUFFIX  := %.so %.dylib %.a %.la %.dll.a %.dll

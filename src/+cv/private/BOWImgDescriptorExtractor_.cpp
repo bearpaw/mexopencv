@@ -5,7 +5,7 @@
  * @date 2012
  */
 #include "mexopencv.hpp"
-#include "opencv2/nonfree/nonfree.hpp"
+
 using namespace std;
 using namespace cv;
 
@@ -38,8 +38,8 @@ void mexFunction( int nlhs, mxArray *plhs[],
     int id = rhs[0].toInt();
     string method(rhs[1].toString());
 
-    if (last_id==0)
-        initModule_nonfree();
+
+
 
     // Constructor call
     if (method == "new") {
